@@ -1,0 +1,31 @@
+{
+	"name": "sketch-plugin-update-demo",
+	"version": "1.0.0",
+	"description": "A demo plugin to test Sketch 45’s update system",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "skpm build",
+		"publish": "skpm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bomberstudios/sketch-plugin-update-demo.git"
+	},
+	"author": "Ale Muñoz",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bomberstudios/sketch-plugin-update-demo/issues"
+	},
+	"homepage": "https://github.com/bomberstudios/sketch-plugin-update-demo#readme",
+	"engines": {
+		"sketch": ">=3.0"
+	},
+	"devDependencies": {
+		"skpm": "^0.10.2"
+	},
+	"skpm": {
+		"manifest": "src/manifest.json",
+		"main": "plugin.sketchplugin"
+	}
+}
