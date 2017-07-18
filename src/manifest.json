@@ -1,7 +1,7 @@
 {
 	"compatibleVersion": 3,
 	"bundleVersion": 1,
-    "appcast": "https://raw.githubusercontent.com/bomberstudios/sketch-plugin-update-demo/master/appcast.xml"
+    "appcast": "https://raw.githubusercontent.com/bomberstudios/sketch-plugin-update-demo/master/appcast.xml",
 	"commands": [
 		{
 			"name": "my-command",
